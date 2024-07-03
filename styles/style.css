@@ -346,8 +346,7 @@
   margin: 10px 0 0;
 }
 
-.header__footer {
-  width: 100%;
+.footer {
   color: #f2f2f2;
   padding: 60px 80px;
   background-color: #000000;
@@ -421,7 +420,7 @@
   margin-top: 0;
   font-weight: bold;
 }
-.footer__time {
+.footer__opening-hours {
   margin-top: 0;
   font-weight: bold;
 }
