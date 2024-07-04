@@ -354,7 +354,6 @@
 
 .footer__columns {
   display: flex;
-  margin-bottom: 100px;
 }
 
 .footer__column {
@@ -362,13 +361,13 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
   margin-left: auto;
+  margin-right: 0;
 }
 
 .footer__column_content_social {
   margin: 0;
-  margin-left: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -406,5 +405,5 @@
 
 .footer__copyright {
   font-size: 16px;
-  margin-top: 0;
+  margin-top: 100px;
 }
