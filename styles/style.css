@@ -306,7 +306,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 52px;
 }
 
@@ -349,7 +349,7 @@
   width: 100%;
   padding: 60px 80px;
   color: #fff;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -363,10 +363,12 @@
 
 .footer__column_content_hours {
   margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   margin: 0;
+  margin-left: 0;
 }
 
 .footer__logo {
@@ -404,4 +406,5 @@
 
 .footer__copyright {
   font-size: 16px;
+  margin-top: 0;
 }
