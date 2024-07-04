@@ -308,25 +308,24 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
+  font-weight: bold;
 }
 
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px 0 0;
+  margin: 40px 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  /* Adicione estilos */
 }
 
 .step {
   align-content: flex-start;
   flex: auto;
-  padding-left: 40px;
+  padding: 40px;
   flex-basis: 220px;
-  /* Adicione estilos */
 }
 
 .step__title {
@@ -347,16 +346,16 @@
 }
 
 .footer {
-  color: #f2f2f2;
+  box-sizing: border-box;
+  width: 100%;
   padding: 60px 80px;
+  color: #fff;
   background-color: #000000;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__columns {
   display: flex;
-  width: 100%;
+  margin-bottom: 100px;
 }
 
 .footer__column {
@@ -365,13 +364,10 @@
 
 .footer__column_content_hours {
   margin-right: 80px;
-  width: 20%;
-  height: 80px;
 }
 
 .footer__column_content_social {
-  margin: 0px;
-  height: 80px;
+  margin: 0;
 }
 
 .footer__logo {
@@ -381,45 +377,32 @@
 
 .footer__column-heading {
   margin-top: 0;
-  height: 80px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .footer__list {
-  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
-  margin: auto;
   font-size: 16px;
 }
 
 .footer__social-icon {
-  padding-right: 10px;
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
 }
 
 .footer__copyright {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: 100px;
   font-size: 16px;
-}
-
-.footer__social-media {
-  margin-top: 0;
-  font-weight: bold;
-}
-.footer__opening-hours {
-  margin-top: 0;
-  font-weight: bold;
 }
